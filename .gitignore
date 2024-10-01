@@ -1,0 +1,7 @@
+invent/node_modules/
+server/node_modules/
+invent/dist/
+server/dist/
+invent/.env/
+server/.env/
+invent/.next/
