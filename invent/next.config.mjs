@@ -12,7 +12,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "https://s4-inventorymanagement.s3.ap-south-1.amazonaws.com/", // Allow images from this hostname
+        hostname: "s4-inventorymanagement.s3.ap-south-1.amazonaws.com", // Allow images from this hostname
         port: "",
         pathname: "/**", // Match any path for images
       },
