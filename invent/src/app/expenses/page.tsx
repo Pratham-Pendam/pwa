@@ -137,7 +137,7 @@ const Expenses = () => {
               />
             </div>
             {/* END DATE */}
-            <div>
+{/*             <div>
               <label htmlFor="end-date" className={classNames.label}>
                 End Date
               </label>
@@ -148,7 +148,7 @@ const Expenses = () => {
                 className={classNames.selectInput}
                 onChange={(e) => setEndDate(e.target.value)}
               />
-            </div>
+            </div> */}
           </div>
         </div>
         {/* PIE CHART */}
@@ -160,7 +160,7 @@ const Expenses = () => {
                 cx="50%"
                 cy="50%"
                 label
-                outerRadius={150}
+                outerRadius={90}
                 fill="#8884d8"
                 dataKey="amount"
                 onMouseEnter={(_, index) => setActiveIndex(index)}
